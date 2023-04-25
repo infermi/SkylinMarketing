@@ -1,0 +1,261 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Sep from "../components/Sep.astro";
+import Features from "../components/Features.astro";
+import Contact from "../components/Contact.astro";
+import Divider from "../components/Divider.astro";
+---
+
+<Layout title="סקיילין מרקטינג">
+	<main class="relative">
+		<section
+			class="relative flex min-h-[75vh] w-full flex-col items-center justify-center text-center"
+		>
+			<div class="max-w-xl px-8 text-white lg:max-w-4xl">
+				<h1 class="font-heebo text-4xl font-bold xl:text-5xl">
+					פתרונות פרסום אפקטיביים
+				</h1>
+				<Sep />
+				<h3
+					class="font-varela text-base md:text-lg lg:text-xl xl:text-2xl"
+				>
+					אני מתמחה ביצירת אסטרטגיות שיווק מותאמות אישית לצרכים
+					ולמטרות הייחודיות של העסק שלך. מניתוח נתונים ועד לניהול מדיה
+					חברתית, אני פה כדי לעזור לך להגיע לקהל היעד שלך ולהשיג את
+					היעדים העסקיים שלך.
+				</h3>
+				<div
+					class="mt-5 flex flex-row justify-center gap-5 font-heebo font-bold"
+				>
+					<a
+						data-ripple-light="true"
+						href="#about"
+						class="inline-block w-fit cursor-pointer rounded-md bg-primary px-5 py-3 tracking-wider text-text_color transition-all hover:scale-105"
+					>
+						קרא עוד
+					</a>
+					<a
+						data-ripple-light="true"
+						href="#contact"
+						class="inline-block w-fit cursor-pointer rounded-md border-2 border-primary bg-transparent px-5 py-3 tracking-wider text-text_color backdrop-blur-md transition-all hover:scale-105"
+					>
+						צור קשר
+					</a>
+				</div>
+			</div>
+
+			<img
+				src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+				alt=""
+				class="absolute top-0 -z-10 h-full w-full object-cover object-center brightness-50"
+			/>
+		</section>
+		<section class="scroll-m-16 bg-home py-7 text-center" id="about">
+			<div
+				class="max-w-screen-xlgap-5 mx-auto w-full px-3 text-center md:flex-1 md:flex-row md:px-10"
+			>
+				<div class="order-2 w-full">
+					<h1 class="font-varela text-4xl font-bold xl:text-5xl">
+						קצת עליינו
+					</h1>
+					<Sep />
+
+					<p
+						class="mx-auto max-w-5xl text-base sm:text-lg md:text-xl xl:text-2xl"
+					>
+						ב-סקיילין מרקטינג, אנחנו עוזרים לעסקים קטנים ובינוניים
+						להצליח בעולם הדיגיטלי של היום. הניסיון שלנו מספק פתרונות
+						מונעי תוצאות, מניהול מדיה חברתית ועד אסטרטגיות שיווק
+						מקיפות. כמייסד סקיילין מרקטינג, אני מחויב לשים את צרכי
+						הלקוחות שלנו במקום הראשון. צור קשר כדי ללמוד איך נוכל
+						לעזור לעסק שלך לצמוח.
+					</p>
+					<a
+						data-ripple-light="true"
+						href="#contact"
+						class="inline-block w-fit cursor-pointer rounded-md bg-primary px-5 py-3 tracking-wider text-text_color transition-all hover:scale-105"
+					>
+						צור קשר
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<Divider />
+
+		<Features />
+
+		<Divider />
+
+		<section
+			class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center"
+			id="solutions"
+		>
+			<div class="p-8 md:p-12 lg:px-16 lg:py-24">
+				<div class="mx-auto max-w-2xl text-center sm:text-right">
+					<h2
+						class="font-varela text-2xl font-bold text-gray-900 md:text-3xl"
+					>
+						אנחנו מציעים מגוון פתרונות למה שאתה צריך
+					</h2>
+
+					<p class="hidden text-gray-500 md:mt-4 md:block xl:text-lg">
+						<span class="text-center text-xl underline"
+							>פיתוח אסטרטגיות שיווק</span
+						>
+						<br />
+						אנחנו מתמחים בבניית אסטרטגיות שיווק מותאמות לצרכי הלקוחות
+						שלנו ובהתאם לתקציב הפרסום שלהם. אנחנו נותנים דגש על המתן
+						לאורך טווח וביצוע של האסטרטגיה בצורה הטובה ביותר.
+
+						<br />
+						<br />
+						<span class="text-center text-xl underline"
+							>ניתוח נתונים</span
+						>
+						<br />
+						אנחנו מציעים ניתוח מתקדם של הנתונים שלכם כדי להבין את הצרכים
+						והרגלי הצרכים של הלקוחות שלכם וליישם את המיטב מהנתונים הללו
+						באסטרטגיית השיווק שלכם.
+
+						<br />
+						<br />
+						<span class="text-center text-xl underline"
+							>קמפייני פרסום יעילים</span
+						>
+						<br />
+						אנחנו מפתחים קמפיינים פרסום מותאמים לעסק שלכם ולצרכי הלקוחות
+						שלכם. אנחנו משתמשים בטכנולוגיות מתקדמות כדי להבטיח שקהל היעד
+						שלכם יקבל את המיטב ויהיה מוצג לכם רווחיות גבוהה.
+
+						<br />
+						<br />
+						<span class="text-center text-xl underline"
+							>ניהול מדיה חברתית</span
+						>
+						<br />
+						אנחנו מפעילים ומנהלים את חשבונות המדיה החברתית שלכם כדי לפרסם
+						את התוכן ה מה המטרה של האתר
+					</p>
+
+					<div class="mt-4 md:mt-8">
+						<a
+							class="inline-block rounded bg-primary px-8 py-3 text-sm text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-dark_primary"
+							href="#contact"
+						>
+							נשמע טוב!
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<img
+				alt=""
+				src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+				class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end ltr:sm:rounded-tl-[30px] rtl:sm:rounded-tr-[30px] md:h-[calc(100%_-_4rem)] ltr:md:rounded-tl-[60px] rtl:md:rounded-tr-[60px]"
+			/>
+		</section>
+
+		<div id="contact"></div>
+		<Divider />
+
+		<Contact />
+	</main>
+</Layout>
+<!-- step form -->
+<script is:inline>
+	var currentTab = 0; // Current tab is set to be the first tab (0)
+	showTab(currentTab); // Display the current tab
+
+	function showTab(n) {
+		// This function will display the specified tab of the form ...
+		var x = document.getElementsByClassName("tab");
+		x[n].style.display = "block";
+		// ... and fix the Previous/Next buttons:
+		if (n == 0) {
+			document.getElementById("prevBtn").style.display = "none";
+		} else {
+			document.getElementById("prevBtn").style.display = "inline";
+		}
+		if (n == x.length - 1) {
+			document.getElementById("nextBtn").innerHTML = "שלח";
+		} else {
+			document.getElementById("nextBtn").innerHTML = "הבא";
+		}
+	}
+
+	function nextPrev(n) {
+		// This function will figure out which tab to display
+		var x = document.getElementsByClassName("tab");
+		// Exit the function if any field in the current tab is invalid:
+		if (n == 1 && !validateForm()) return false;
+		// Hide the current tab:
+		x[currentTab].style.display = "none";
+		// Increase or decrease the current tab by 1:
+		currentTab = currentTab + n;
+		// if you have reached the end of the form... :
+		if (currentTab >= x.length) {
+			//...the form gets submitted:
+			document.getElementById("regForm").submit();
+			return false;
+		}
+		var progressbar = document.getElementById("progress");
+		progressbar.style.display = "block";
+		progressbar.children[0].style.width =
+			((currentTab / x.length) * 100).toString() + "%";
+		// Otherwise, display the correct tab:
+		showTab(currentTab);
+	}
+
+	function validateForm() {
+		// This function deals with validation of the form fields
+		var x,
+			y,
+			i,
+			valid = true;
+		x = document.getElementsByClassName("tab");
+		y = x[currentTab].getElementsByTagName("input");
+		if (y.length == 0) {
+			y = x[currentTab].getElementsByTagName("select");
+		}
+		// A loop that checks every input field in the current tab:
+		for (i = 0; i < y.length; i++) {
+			// If a field is empty...
+			console.log(!y[i].checked);
+			if (
+				(y[i].value == "" ||
+					(!y[i].checked && y[i].type == "checkbox") ||
+					(y[i].name == "טלפון" && !/^\d+$/.test(y[i].value))) &&
+				y[i].required == true
+			) {
+				// add an "invalid" class to the field:
+				y[i].className += " border-red-600";
+				// and set the current valid status to false:
+				valid = false;
+			}
+		}
+
+		return valid; // return the valid status
+	}
+</script>
+<!-- accesibility -->
+<script>
+	const callback = function (entries: IntersectionObserverEntry[]) {
+		entries.forEach((entry: IntersectionObserverEntry) => {
+			console.log(entry);
+
+			if (entry.isIntersecting) {
+				entry.target.classList.add("animate-fadeIn");
+			} else {
+				entry.target.classList.remove("animate-fadeIn");
+			}
+		});
+	};
+	const observer = new IntersectionObserver(callback);
+
+	const targets = document.querySelectorAll(".js-show-on-scroll");
+	targets.forEach(function (target) {
+		target.classList.add("opacity-0");
+		observer.observe(target);
+	});
+</script>
